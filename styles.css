@@ -1,11 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 body {
   padding: 25px;
   font-family: 'Inter', sans-serif;
   color: #ffffff;
 }
+.image-sections {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
+.section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #4287ff;
+}
 .title {
   color: #ffffff;
   font-family: 'Inter', sans-serif;
