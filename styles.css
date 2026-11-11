@@ -11,3 +11,20 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
 }
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #111111, #1a1a1a);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+mark {
+    background: #333333;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
