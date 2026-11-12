@@ -155,7 +155,7 @@ mark {
     flex: 1;
     min-width: 250px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.50);
     border: 1px solid #00d9ff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
@@ -168,6 +168,6 @@ mark {
     border-radius: 5px;
     padding: 25px;
     margin-top: 30px;
-    background: rgba(15, 15, 20, 0.80);
+    background: rgba(15, 15, 20, 0.50);
     box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
 }
