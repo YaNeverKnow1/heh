@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
-/* GENERAL WEBSITE */
+/* Website */
 body {
     padding: 25px;
     font-family: 'Inter', sans-serif;
@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* MAIN TITLE */
+/* Title */
 .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 42px;
@@ -25,7 +25,7 @@ body {
     letter-spacing: 3px;
 }
 
-/* HEADER */
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,12 +34,12 @@ body {
     gap: 20px;
 }
 
-/* HEADINGS */
+/* Heading */
 h1, h2, h3, h4 {
     color: white;
 }
 
-/* IMAGE SECTIONS */
+/* Images */
 .image-sections {
     display: flex;
     gap: 30px;
@@ -54,13 +54,13 @@ h1, h2, h3, h4 {
     max-width: 500px;
 }
 
-/* GENERAL IMAGES */
+/* Images */
 img {
     border: 1px solid #666;
     border-radius: 3px;
 }
 
-/* HIGHLIGHTED TEXT */
+/* Highlighted text */
 mark {
     background: #333;
     color: white;
@@ -155,7 +155,7 @@ mark {
     flex: 1;
     min-width: 250px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.80);
     border: 1px solid #00d9ff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
@@ -168,6 +168,6 @@ mark {
     border-radius: 5px;
     padding: 25px;
     margin-top: 30px;
-    background: #000000;
+    background: rgba(15, 15, 20, 0.80);
     box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
 }
