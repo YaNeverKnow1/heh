@@ -111,3 +111,8 @@ mark {
     background-color: #00d9ff;
     color: black;
 }
+img {
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 217, 255, 0.4);
+}
