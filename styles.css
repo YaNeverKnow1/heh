@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
 body {
   padding: 25px;
   font-family: 'Inter', sans-serif;
@@ -73,4 +74,40 @@ mark {
     font-size: 18px;
     text-decoration: none;
     cursor: pointer;
+}
+.tab-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.tab-btn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    padding: 16px 25px;
+
+    background-color: #111827;
+    color: #00d9ff;
+
+    border: 2px solid #00d9ff;
+    border-radius: 4px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.tab-btn:hover {
+    background-color: #00d9ff;
+    color: black;
+    box-shadow: 0 0 15px #00d9ff;
+}
+
+/* Active tab */
+.tab-btn.active {
+    background-color: #00d9ff;
+    color: black;
 }
