@@ -87,8 +87,18 @@ mark {
 
     padding: 16px 25px;
 
-    background-color: #111827;
-    color: #00d9ff;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.70)
+        ),
+        url("https://img.magnific.com/free-vector/dark-background-with-neon-lines_23-2148931032.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
     border: 2px solid #00d9ff;
     border-radius: 4px;
