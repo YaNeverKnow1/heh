@@ -165,20 +165,24 @@ mark {
     box-shadow: 0 0 10px #00d9ff;
     box-sizing: border-box;
 }
-/* About Page Background */
+
+/* ABOUT PAGE BACKGROUND */
 .about-page {
+    min-height: 100vh;
+    box-sizing: border-box;
+
     background-image:
-        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+        linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.30)),
         url("https://media1.tenor.com/m/2q5BsXU7qOUAAAAC/the-rook-chess.gif");
 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
 
-    min-height: 100vh;
-    color: white;
+    background-color: #000;
 }
+
 
 /* About Page Text */
 .about-page h3 {
