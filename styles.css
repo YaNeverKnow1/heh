@@ -246,3 +246,27 @@ mark {
         0 0 40px #00d9ff;
 }
 
+/* About side-by-side layout */
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.about-gif {
+    flex: 1;
+    min-width: 0;
+}
+
+.about-gif img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #00d9ff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00d9ff;
+}
