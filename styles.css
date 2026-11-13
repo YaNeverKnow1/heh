@@ -135,14 +135,7 @@ mark {
 }
 
 
-    .title {
-        font-size: 30px;
-    }
 
-    .tab-btn {
-        font-size: 12px;
-        padding: 12px 16px;
-    }
 /* Boxes */
 .section {
     flex: 1;
