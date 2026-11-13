@@ -231,7 +231,7 @@ mark {
     border: 12px solid transparent;
     border-image: repeating-conic-gradient(
         white 0% 25%,
-        #00B8D9 0% 50%
+        #007791 0% 50%
     ) 12;
     box-sizing: border-box;
 }
