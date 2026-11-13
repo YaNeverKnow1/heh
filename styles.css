@@ -175,11 +175,9 @@ mark {
         linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.30)),
         url("https://media1.tenor.com/m/2q5BsXU7qOUAAAAC/the-rook-chess.gif");
 
-    background-size: 100% auto;
-    background-position: top center;
-    background-repeat: repeat-y;
-    background-attachment: scroll;
-
+    background-size: 100% 100%, contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-color: #000;
 }
 
