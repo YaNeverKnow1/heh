@@ -166,3 +166,45 @@ mark {
     box-shadow: 0 0 10px #00d9ff;
     box-sizing: border-box;
 }
+/* About Page Background */
+.about-page {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+        url("https://media1.tenor.com/m/2q5BsXU7qOUAAAAC/the-rook-chess.gif");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    color: white;
+}
+
+/* About Page Text */
+.about-page h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: white;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid #00d9ff;
+    border-radius: 5px;
+
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+}
+
+/* Go Back Link */
+.about-page a {
+    color: #00d9ff;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+}
+
+.about-page a:hover {
+    text-shadow: 0 0 10px #00d9ff;
+}
