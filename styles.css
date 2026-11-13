@@ -227,27 +227,34 @@ mark {
         0 0 40px #00d9ff;
 }
 
-/* About side-by-side layout */
 .about-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    align-items: flex-start;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-text {
-    flex: 1;
-    min-width: 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1100px;
 }
 
 .about-gif {
-    flex: 1;
-    min-width: 0;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
 }
 
 .about-gif img {
     width: 100%;
-    height: auto;
-    border: 2px solid #00d9ff;
-    border-radius: 5px;
-    box-shadow: 0 0 15px #00d9ff;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.45;
+    border: none;
+    border-radius: 0;
 }
