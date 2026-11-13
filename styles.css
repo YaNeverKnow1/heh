@@ -168,8 +168,6 @@ mark {
 
 /* ABOUT PAGE BACKGROUND */
 .about-page {
-    min-height: 100vh;
-    box-sizing: border-box;
 
     background-image:
         linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.30)),
@@ -178,6 +176,7 @@ mark {
     background-size: 100% 100%, contain;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: scroll, fixed;
     background-color: #000;
 }
 
