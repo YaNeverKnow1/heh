@@ -260,7 +260,7 @@ mark {
 }
 .checkerboard {
     width: 100vw;
-    height: 90px;
+    height: 60px;
     margin-left: calc(50% - 50vw);
     margin-bottom: 35px;
 
