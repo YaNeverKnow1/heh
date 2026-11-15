@@ -259,13 +259,13 @@ mark {
     border-radius: 0;
 }
 .checkerboard {
-    width: calc(100% + 50px);
+    width: 100vw
     height: 150px;
-    margin-left: -25px;
+    margin-left: calc(50% - 50vw);
     margin-bottom: 35px;
 
     background-image: url("https://static.vecteezy.com/system/resources/previews/020/716/442/non_2x/checkered-black-and-white-background-illustration-free-vector.jpg");
-    background-size: auto 90px;
+    background-size: 100% 100%;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
