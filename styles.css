@@ -259,7 +259,7 @@ mark {
     border-radius: 0;
 }
 .checkerboard {
-    width: 100vw
+    width: 100vw;
     height: 150px;
     margin-left: calc(50% - 50vw);
     margin-bottom: 35px;
