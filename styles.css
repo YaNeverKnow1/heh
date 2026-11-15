@@ -258,3 +258,13 @@ mark {
     border: none;
     border-radius: 0;
 }
+.checkerboard {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 35px;
+
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/716/442/non_2x/checkered-black-and-white-background-illustration-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
