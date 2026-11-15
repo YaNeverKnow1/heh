@@ -265,7 +265,7 @@ mark {
     margin-bottom: 35px;
 
     background-image: url("checkered-black-and-white-background-illustration-free-vector.jpg");
-    background-size: auto 450px;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
