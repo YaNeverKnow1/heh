@@ -261,12 +261,12 @@ mark {
 }
 
 .fun-btn {
-    border-color: #ff00cc;
-    color: #ff00cc;
+    border-color:#ff3366;
+    color: #ff3366;
 }
 
 .fun-btn:hover {
-    background: #ff00cc;
+    background: #ff3366;
     color: black;
-    box-shadow: 0 0 15px #ff00cc;
+    box-shadow: 0 0 15px #ff3366;
 }
