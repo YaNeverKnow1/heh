@@ -260,3 +260,13 @@ mark {
     border-radius: 0;
 }
 
+.fun-btn {
+    border-color: #ff1744;
+    color: #ff1744;
+}
+
+.fun-btn:hover {
+    background: #ff1744;
+    color: black;
+    box-shadow: 0 0 15px #ff1744;
+}
