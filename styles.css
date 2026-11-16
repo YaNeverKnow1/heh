@@ -265,7 +265,7 @@ mark {
     margin-bottom: 35px;
 
     background-image: url("il_fullxfull.7245314083_esjx.png");
-    background-size: 100% 65%;
+    background-size: auto 90px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
