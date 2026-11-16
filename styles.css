@@ -265,7 +265,7 @@ mark {
     margin-bottom: 35px;
 
     background-image: url("il_fullxfull.7247094505_60mv.webp");
-    background-size: auto 60px
+    background-size: auto;
     background-position: center;
     background-repeat: repeat-x;
 }
