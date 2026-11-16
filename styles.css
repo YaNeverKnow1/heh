@@ -312,8 +312,7 @@ mark {
     text-align: center;
 }
 .section-divider {
-    border: none;
-    height: 2px;
-    background: linear-gradient(to right, #00d9ff, white, #ff3366);
-    margin: 40px 0;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.25);
+    margin: 30px 0;
 }
