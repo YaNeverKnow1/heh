@@ -311,3 +311,9 @@ mark {
     color: white;
     text-align: center;
 }
+.section-divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #00d9ff, white, #ff3366);
+    margin: 40px 0;
+}
