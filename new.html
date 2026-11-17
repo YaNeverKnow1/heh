@@ -17,7 +17,23 @@
         <a class="tab-btn tab-three active" href="new.html">The Forbidden Files</a>
     </div>
 </div>
+<h1>TOP SECRET</h1>
 
+<input type="password" id="password" placeholder="Enter password">
+
+<button onclick="checkPassword()">Enter</button>
+
+<p id="message"></p>
+
+<script>
+function checkPassword() {
+    if (document.getElementById("password").value == "classified") {
+        document.getElementById("message").innerHTML = "ACCESS GRANTED!";
+    } else {
+        document.getElementById("message").innerHTML = "ACCESS DENIED!";
+    }
+}
+</script>
 </body>
 </html>
 
