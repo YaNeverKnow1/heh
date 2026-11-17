@@ -348,3 +348,38 @@ mark {
     flex: 1;
 }
 
+/* State secrets */
+
+.classified-file {
+    background: rgba(0, 0, 0, 0.85);
+    border: 2px solid #ff1744;
+    box-shadow: 0 0 12px rgba(255, 23, 68, 0.4);
+
+    padding: 25px;
+    margin: 25px 0;
+
+    color: #ff1744;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.classified-file h2 {
+    color: #ff1744;
+    text-shadow: 0 0 8px #ff1744;
+    border-bottom: 1px solid #ff1744;
+    padding-bottom: 10px;
+}
+
+.classified-file p {
+    color: #ff465e;
+    line-height: 1.7;
+}
+
+#secretContent > h1 {
+    color: #ff1744;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 15px #ff1744;
+    margin-top: 40px;
+}
+
+
