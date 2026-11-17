@@ -263,6 +263,10 @@ mark {
 .fun-btn {
     border-color:#ff3366;
     color: #ff3366;
+    font-size: 20px;
+    padding: 22px 40px;
+    min-width: 350px;
+    text-align: center;
 }
 
 .fun-btn:hover {
