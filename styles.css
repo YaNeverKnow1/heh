@@ -261,6 +261,9 @@ mark {
 }
 
 .fun-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     border-color:#ff3366;
     color: #ff3366;
     font-size: 20px;
@@ -317,8 +320,6 @@ mark {
 }
 .fun-website {
     width: calc(50% - 15px);
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
