@@ -18,24 +18,101 @@
     </div>
 </div>
 
-<h1>TOP SECRET</h1>
+<!-- PASSWORD -->
 
-<input type="password" id="password" placeholder="Enter password">
+<div id="loginScreen">
 
-<button onclick="checkPassword()">Enter</button>
+    <h1>TOP SECRET</h1>
 
-<p id="message"></p>
+    <h3>Enter Password to Continue</h3>
+
+    <input type="password" id="password" placeholder="Enter password">
+
+    <button onclick="checkPassword()">Enter</button>
+
+    <p id="message"></p>
+
+</div>
+
+<!-- CLASSIFIED FILES -->
+
+<div id="secretContent" style="display:none;">
+
+    <h1>CLASSIFIED GOVERNMENT FILES</h1>
+
+    <div class="classified-file">
+
+        <h2>FILE 001 - THE UNKNOWN</h2>
+
+        <p>SUBJECT: UNKNOWN ENTITY</p>
+        <p>STATUS: UNDER INVESTIGATION</p>
+
+        <p>
+        An unidentified subject has been discovered.
+        Its origin remains unknown. All investigations
+        have been suspended until further notice.
+        </p>
+
+        <p>SECURITY LEVEL: HIGH</p>
+
+    </div>
+
+    <div class="classified-file">
+
+        <h2>FILE 002 - THE INCIDENT</h2>
+
+        <p>SUBJECT: UNEXPLAINED EVENT</p>
+        <p>STATUS: CLASSIFIED</p>
+
+        <p>
+        At approximately an unknown time, an unusual
+        incident occurred. Witness reports remain
+        inconsistent. All evidence has been secured.
+        </p>
+
+        <p>SECURITY LEVEL: TOP SECRET</p>
+
+    </div>
+
+    <div class="classified-file">
+
+        <h2>FILE 003 - THE WARNING</h2>
+
+        <p>SUBJECT: GLOBAL THREAT</p>
+        <p>STATUS: UNRESOLVED</p>
+
+        <p>
+        Government officials have identified a potential
+        threat. Further details have been withheld.
+        Citizens are advised to remain alert.
+        </p>
+
+        <p>SECURITY LEVEL: MAXIMUM</p>
+
+    </div>
+
+</div>
 
 <script>
+
 function checkPassword() {
+
     let password = document.getElementById("password").value;
 
     if (password === "classified") {
-        document.getElementById("message").innerHTML = "ACCESS GRANTED!";
+
+        document.getElementById("loginScreen").style.display = "none";
+
+        document.getElementById("secretContent").style.display = "block";
+
     } else {
+
         document.getElementById("message").innerHTML = "ACCESS DENIED!";
+
     }
+
 }
+
 </script>
 
 </body>
