@@ -316,7 +316,9 @@ mark {
     text-align: center;
 }
 .fun-website {
+    width: calc(50% - 15px);
     display: flex;
     justify-content: center;
-    margin: 25px auto;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
