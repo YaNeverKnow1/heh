@@ -315,3 +315,8 @@ mark {
     color: white;
     text-align: center;
 }
+.fun-website {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+}
