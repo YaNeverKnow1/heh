@@ -17,6 +17,7 @@
         <a class="tab-btn tab-three active" href="new.html">The Forbidden Files</a>
     </div>
 </div>
+
 <h1>TOP SECRET</h1>
 
 <input type="password" id="password" placeholder="Enter password">
@@ -27,13 +28,15 @@
 
 <script>
 function checkPassword() {
-    if (document.getElementById("password").value == "classified") {
+    let password = document.getElementById("password").value;
+
+    if (password === "classified") {
         document.getElementById("message").innerHTML = "ACCESS GRANTED!";
     } else {
         document.getElementById("message").innerHTML = "ACCESS DENIED!";
     }
 }
 </script>
+
 </body>
 </html>
-
